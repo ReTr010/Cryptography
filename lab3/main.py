@@ -24,7 +24,7 @@ def vigenere_cipher(text, key, mode):
 
 def main():
     while True:
-        choice = input("Выберите операцию: 1 - Зашифровать, 2 - Расшифровать, 3 - Выход: ")
+        choice = input("Выберите операцию: \n1 - Зашифровать \n2 - Расшифровать \n3 - Выход: ")
         if choice == '1':
             message = input("Введите сообщение на русском языке: ")
             if not validate_input(message):
